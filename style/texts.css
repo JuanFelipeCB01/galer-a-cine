@@ -1,0 +1,32 @@
+
+#pf{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#qt{
+    text-transform: capitalize;
+}
+
+#tsc{
+    font-weight: 800;
+}
+
+#sann{
+    font-weight: 400;
+}
+
+.phone-number{
+    color: black;
+    text-decoration: none;
+}
+
+.links-class{
+    color: black;
+    text-decoration: none;
+}
+
+#c{
+    position: relative;
+    left: 65px;
+}

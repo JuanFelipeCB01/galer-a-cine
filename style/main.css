@@ -1,0 +1,121 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header-class{
+    background-color: whitesmoke;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100px;
+}
+
+.genero{
+    color: black;
+    display: flex;
+    gap: 25px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.genero a:hover{
+    scale: 1.1;     
+}
+
+.nav-class{
+    display: flex;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.input-buscar{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 20px;
+}
+
+
+.main-class{
+    margin-top: 70px;
+    padding: 75px 15px 0px;
+    background-color: wheat;
+    justify-content: center;
+}
+
+.paneles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 300px;
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0px 70px;
+}
+
+.ad-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.descuento{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.descuento-texto{
+    border-bottom: solid black;
+    padding: 1px 15px 10px;
+}
+
+.input-email{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: wheat;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.medios-contacto{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.contact-phone{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+}
