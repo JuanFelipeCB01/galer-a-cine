@@ -24,9 +24,10 @@
 .links-class{
     color: black;
     text-decoration: none;
+    padding: 5px 0px;
 }
 
 #c{
-    position: relative;
-    left: 65px;
+    text-align: center;
+    width: 100px;
 }

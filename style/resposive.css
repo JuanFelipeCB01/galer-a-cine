@@ -1,0 +1,10 @@
+
+@media (max-width: 950px){
+    .burger{
+        display: inline;
+    }
+    .nav-class{
+        display: none;
+    }
+    {}
+}

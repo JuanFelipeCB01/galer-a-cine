@@ -10,6 +10,7 @@
     background-color: whitesmoke;
     height: 70px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -22,21 +23,46 @@
     color: black;
     display: flex;
     gap: 25px;
-    padding-left: 20px;
+    justify-content: left;
+    margin-left: 20px;
     text-transform: uppercase;
     text-decoration: none;
+    width: 260px;
 }
 
 .genero a:hover{
     scale: 1.1;     
 }
 
+.menu{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    z-index: 100;
+}
+
+.menu a:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+.burger-box{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100px;
+}
+
 .nav-class{
     display: flex;
-    padding-right: 20px;
-    justify-content: center;
+    margin-right: 20px;
+    justify-content: right;
     align-items: center;
     gap: 6px;
+    width: 260px;
 }
 
 .input-buscar{
@@ -102,15 +128,18 @@ footer{
 
 .contacto{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 100px 0px;
+    padding: 100px 0px 150px;
 }
 
 .medios-contacto{
     display: flex;
     gap: 10px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-phone{
@@ -118,4 +147,47 @@ footer{
     align-items: center;
     text-align: center;
     gap: 3px;
+}
+
+.listas-footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin: 0 auto;
+    margin:70px 0px 250px;
+}
+
+.lista li{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.listas-footer h1{
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.cajas-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajas-footer h1{
+    font-weight: 200;
+}
+
+.lista{
+    widht: 150px;
+}
+
+.caja{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 150px;
 }
